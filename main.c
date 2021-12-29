@@ -17,7 +17,6 @@ void getWords(FILE *text, struct Tree* tree){
 
         if ( (('À' <= c) && ('ß' >= c)) || (('à' <= c) && ('ÿ' >= c)) )
         {
-
            char *str;
            str[0] = c;
            str[1] = '\0';
